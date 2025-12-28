@@ -5,7 +5,7 @@ export function generateRandomPositions(count: number): DecorationPosition[] {
     id: `decoration-${index}`,
     top: `${Math.random() * 90}%`,
     left: `${Math.random() * 90}%`,
-    rotation: Math.random() * 360 - 180,
+    rotation: Math.random() * 20 - 10,
     opacity: Math.random() * 0.15 + 0.05,
     scale: Math.random() * 0.5 + 0.8,
   }));

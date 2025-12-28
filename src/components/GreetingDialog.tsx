@@ -7,7 +7,7 @@ interface GreetingDialogProps {
 
 export function GreetingDialog({ name, greeting, onNameChange, onShuffle }: GreetingDialogProps) {
   return (
-    <div className="bg-white rounded-lg shadow-2xl overflow-hidden w-96 transition-all duration-300">
+    <div className="bg-white rounded-lg shadow-2xl overflow-hidden min-w-[500px] max-w-2xl transition-all duration-300">
       {/* Title Bar */}
       <div className="bg-gradient-to-r from-[#61DAFB] to-[#087ea4] px-6 py-4">
         <h2 className="text-white font-semibold text-lg transition-all duration-300">
