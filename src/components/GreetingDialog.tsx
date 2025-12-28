@@ -26,7 +26,7 @@ export function GreetingDialog({ name, greeting, onNameChange, onShuffle }: Gree
             value={name}
             onChange={(e) => onNameChange(e.target.value)}
             className="w-48 px-3 py-2 border-2 border-gray-300 rounded-md focus:outline-none focus:border-[#61DAFB] transition-colors duration-200 text-gray-800"
-            placeholder="Enter name..."
+            placeholder="enter name..."
           />
           <span className="text-gray-700 font-medium">!</span>
           <button
