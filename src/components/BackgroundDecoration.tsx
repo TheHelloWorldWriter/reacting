@@ -8,7 +8,7 @@ interface BackgroundDecorationProps {
 export function BackgroundDecoration({ position, text }: BackgroundDecorationProps) {
   return (
     <div
-      className="absolute text-4xl font-bold text-white pointer-events-none select-none transition-opacity duration-500"
+      className="absolute text-4xl font-bold text-white pointer-events-none select-none transition-opacity duration-500 bg-white/25 px-4 py-2 rounded-lg backdrop-blur-sm"
       style={{
         top: position.top,
         left: position.left,
