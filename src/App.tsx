@@ -6,7 +6,7 @@ function App() {
   const { name, setName, handleShuffle, greeting } = useGreeting('React');
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#087ea4] via-[#61DAFB] to-[#087ea4] relative overflow-hidden">
+    <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-[#087ea4] via-[#61DAFB] to-[#087ea4] relative overflow-hidden">
       {/* Background Decorations - Always visible (mobile-first) */}
       <BackgroundDecoration top="10%" left="5%" text={greeting} />
       <BackgroundDecoration top="20%" left="75%" text={greeting} />
