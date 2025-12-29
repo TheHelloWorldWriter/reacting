@@ -4,7 +4,7 @@ Say hello to React, World, Tomorrow, or Eternity! A playful greeting app I built
 
 Live demo: [https://reacting.thehww.app/hello-react/](https://reacting.thehww.app/hello-react/)
 
-![](../repo-assets/hello-react/hello-react-screenshot.png)
+<img width="640" src="../repo-assets/hello-react/hello-react-screenshot.png" alt="Hello, React!">
 
 ## What it does
 
