@@ -1,8 +1,10 @@
 # Hello, React!
 
-An interactive React greeting app that lets you customize your hello message in real-time.
+Say hello to React, World, Tomorrow, or Eternity! A playful greeting app I built to learn React state, hooks, and TypeScript. Type any name or shuffle for surprises.
 
 Live demo: [https://reacting.thehww.app/hello-react/](https://reacting.thehww.app/hello-react/)
+
+![](../repo-assets/hello-react/hello-react-screenshot.png)
 
 ## What it does
 
