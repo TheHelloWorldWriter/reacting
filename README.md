@@ -8,7 +8,7 @@ All apps are hosted on GitHub Pages: [https://reacting.thehww.app/](https://reac
 
 ## Projects
 
-### [hello-react](./hello-react)
+### [Hello, React!](./hello-react)
 
 An interactive greeting app demonstrating React state management and event handlers.
 
@@ -41,4 +41,9 @@ Each project aims to be:
 
 ## License
 
-MIT License - Copyright (c) 2025 [The Hello World Writer](https://www.thehelloworldwriter.com/)
+Hello, React! is licensed under the [MIT License](LICENSE).
+
+---
+
+Made with ❤️ in Oradea, Romania  
+https://www.thehelloworldwriter.com

@@ -1,4 +1,4 @@
-name: Build and Deploy hello-react
+name: Build and Deploy Hello, React!
 
 on:
   push:

@@ -1,4 +1,4 @@
-# hello-react
+# Hello, React!
 
 An interactive React greeting app that lets you customize your hello message in real-time.
 
@@ -65,4 +65,9 @@ npm run preview
 
 ## License
 
-MIT License - Copyright (c) 2025 [The Hello World Writer](https://www.thehelloworldwriter.com/)
+Hello, React! is licensed under the [MIT License](../LICENSE).
+
+---
+
+Made with ❤️ in Oradea, Romania  
+https://www.thehelloworldwriter.com
