@@ -4,29 +4,29 @@
   "description": "Say hello to React, World, Tomorrow, or Eternity! A playful greeting app built to learn React state, hooks, and TypeScript.",
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "/hello-react/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icon-512.png",
+      "src": "/hello-react/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/icon-192-maskable.png",
+      "src": "/hello-react/icon-192-maskable.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icon-512-maskable.png",
+      "src": "/hello-react/icon-512-maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     }
   ],
-  "start_url": "/",
+  "start_url": "/hello-react/",
   "display": "standalone",
   "theme_color": "#61DAFB",
   "background_color": "#087ea4"
