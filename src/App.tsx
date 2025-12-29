@@ -1,9 +1,17 @@
+import { useState } from 'react';
 import { BackgroundDecoration } from './components/BackgroundDecoration';
 import { GreetingDialog } from './components/GreetingDialog';
-import { useGreeting } from './hooks/useGreeting';
+import { SHUFFLE_WORDS } from './constants/shuffleWords';
 
 function App() {
-  const { name, setName, handleShuffle, greeting } = useGreeting('React');
+  const [name, setName] = useState('React');
+
+  const handleShuffle = () => {
+    const randomIndex = Math.floor(Math.random() * SHUFFLE_WORDS.length);
+    setName(SHUFFLE_WORDS[randomIndex]);
+  };
+
+  const greeting = `Hello, ${name}!`;
 
   return (
     <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-linear-to-br from-[#087ea4] via-[#61DAFB] to-[#087ea4] select-none">
