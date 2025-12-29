@@ -1,8 +1,27 @@
 {
   "name": "hello-react",
+  "version": "1.0.0",
+  "description": "A playful React greeting app for learning state management, hooks, and TypeScript. Type any name or shuffle for quirky surprises.",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "author": "The Hello World Writer (https://www.thehelloworldwriter.com/)",
+  "license": "MIT",
+  "homepage": "https://reacting.thehww.app/hello-react/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheHelloWorldWriter/reacting.git",
+    "directory": "hello-react"
+  },
+  "bugs": {
+    "url": "https://github.com/TheHelloWorldWriter/reacting/issues"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "tailwindcss",
+    "learning-project"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
