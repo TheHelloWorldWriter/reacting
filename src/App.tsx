@@ -7,6 +7,7 @@
 import { useState } from 'react';
 import { BackgroundDecoration } from './components/BackgroundDecoration';
 import { GreetingDialog } from './components/GreetingDialog';
+import { SvgIcon } from './components/SvgIcon';
 import { SHUFFLE_WORDS } from './constants/shuffleWords';
 
 /**
@@ -28,6 +29,18 @@ function App() {
 
   return (
     <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-linear-to-br from-[#087ea4] via-[#61DAFB] to-[#087ea4] select-none">
+      {/* GitHub Link */}
+      <a
+        href="https://github.com/TheHelloWorldWriter/reacting"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="absolute top-4 right-4 z-20 text-white/70 hover:text-white transition-colors duration-200"
+        aria-label="View source code on GitHub"
+        title="View source on GitHub"
+      >
+        <SvgIcon name="github" size={32} />
+      </a>
+
       {/* Background Decorations - Always visible (mobile-first) */}
       <BackgroundDecoration top="10%" left="5%" text={greeting} />
       <BackgroundDecoration top="20%" left="75%" text={greeting} />
