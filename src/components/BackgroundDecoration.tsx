@@ -1,3 +1,9 @@
+/**
+ * Copyright (c) 2025 The Hello World Writer
+ * https://www.thehelloworldwriter.com/
+ * Licensed under the MIT License
+ */
+
 /** Props for the BackgroundDecoration component */
 interface BackgroundDecorationProps {
   /** Vertical position as percentage (e.g., "10%") */

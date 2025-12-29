@@ -1,4 +1,10 @@
 /**
+ * Copyright (c) 2025 The Hello World Writer
+ * https://www.thehelloworldwriter.com/
+ * Licensed under the MIT License
+ */
+
+/**
  * Collection of quirky, out-of-the-box words for the shuffle feature.
  * These words are randomly selected when the user clicks the shuffle button.
  */

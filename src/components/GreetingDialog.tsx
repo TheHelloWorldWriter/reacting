@@ -1,3 +1,9 @@
+/**
+ * Copyright (c) 2025 The Hello World Writer
+ * https://www.thehelloworldwriter.com/
+ * Licensed under the MIT License
+ */
+
 import { SvgIcon } from './SvgIcon';
 
 /** Props for the GreetingDialog component */
