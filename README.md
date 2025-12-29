@@ -10,24 +10,11 @@ All apps are hosted on GitHub Pages: [https://reacting.thehww.app/](https://reac
 
 ### [Hello, React!](./hello-react)
 
-An interactive greeting app demonstrating React state management and event handlers.
+Say hello to React, World, Tomorrow, or Eternity! A playful greeting app I built to learn React state, hooks, and TypeScript. Type any name or shuffle for surprises.
 
 **Live demo:** [https://reacting.thehww.app/hello-react/](https://reacting.thehww.app/hello-react/)
 
-**What I learned:**
-- Component state with `useState`
-- Props and event handlers
-- TypeScript with React
-- Tailwind CSS integration
-- GitHub Pages deployment
-
-## Tech stack
-
-All projects use:
-- **React 19** with TypeScript
-- **Vite 8** for fast builds and development
-- **Tailwind CSS 4** for styling
-- Modern build tools and optimizations
+<img width="640" src="repo-assets/hello-react/hello-react-screenshot.png" alt="Hello, React!">
 
 ## About
 
