@@ -1,3 +1,7 @@
+/**
+ * Collection of quirky, out-of-the-box words for the shuffle feature.
+ * These words are randomly selected when the user clicks the shuffle button.
+ */
 export const SHUFFLE_WORDS = [
   'React',
   'World',

@@ -3,14 +3,21 @@ import { BackgroundDecoration } from './components/BackgroundDecoration';
 import { GreetingDialog } from './components/GreetingDialog';
 import { SHUFFLE_WORDS } from './constants/shuffleWords';
 
+/**
+ * Main application component that displays an interactive greeting dialog
+ * with decorative background text.
+ */
 function App() {
+  /** The current name to display in the greeting */
   const [name, setName] = useState('React');
 
+  /** Randomly selects a new name from SHUFFLE_WORDS */
   const handleShuffle = () => {
     const randomIndex = Math.floor(Math.random() * SHUFFLE_WORDS.length);
     setName(SHUFFLE_WORDS[randomIndex]);
   };
 
+  /** The complete greeting message displayed in UI */
   const greeting = `Hello, ${name}!`;
 
   return (

@@ -1,12 +1,21 @@
 import { SvgIcon } from './SvgIcon';
 
+/** Props for the GreetingDialog component */
 interface GreetingDialogProps {
+  /** The current name value in the input field */
   name: string;
+  /** The complete greeting message (e.g., "Hello, React!") */
   greeting: string;
+  /** Callback when the input value changes */
   onNameChange: (name: string) => void;
+  /** Callback when the shuffle button is clicked */
   onShuffle: () => void;
 }
 
+/**
+ * Main dialog box displaying the interactive greeting interface.
+ * Includes a title bar with live greeting and an input field with shuffle button.
+ */
 export function GreetingDialog({ name, greeting, onNameChange, onShuffle }: GreetingDialogProps) {
   return (
     <div className="relative z-10 bg-white rounded-lg shadow-2xl overflow-hidden max-w-2xl transition-all duration-300">
