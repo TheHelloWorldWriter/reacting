@@ -1,73 +1,68 @@
-# React + TypeScript + Vite
+# hello-react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive React greeting app that lets you customize your hello message in real-time.
 
-Currently, two official plugins are available:
+Live demo: [https://reacting.thehww.app/hello-react/](https://reacting.thehww.app/hello-react/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What it does
 
-## React Compiler
+This app displays a simple greeting dialog where you can:
+- Type any name into the input field to see "Hello, [name]!" update live
+- Click the shuffle button to randomly select from predefined names
+- Watch as the greeting updates dynamically throughout the interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I built this as my first React project to practice fundamental concepts like state management, event handlers, and component composition. The app uses React 19's latest features with TypeScript for type safety.
 
-## Expanding the ESLint configuration
+## Tech stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React 19** with TypeScript for type-safe components
+- **Vite 8** (beta) for fast builds and HMR
+- **Tailwind CSS 4** for utility-first styling
+- Deployed to GitHub Pages
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Project structure
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+├── App.tsx                    # Main application component
+├── components/
+│   ├── BackgroundDecoration.tsx  # Floating greeting text
+│   ├── GreetingDialog.tsx        # Interactive dialog box
+│   └── SvgIcon.tsx               # SVG icon wrapper
+└── constants/
+    └── shuffleWords.ts           # Array of names for shuffle feature
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Running locally
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Install dependencies:
+```bash
+npm install
 ```
+
+Start the development server:
+```bash
+npm run dev
+```
+
+Build for production:
+```bash
+npm run build
+```
+
+Preview production build:
+```bash
+npm run preview
+```
+
+## What I learned
+
+- Managing component state with `useState`
+- Passing props and event handlers between components
+- Building reusable components with TypeScript interfaces
+- Configuring Vite for GitHub Pages deployment
+- Using Tailwind CSS with modern CSS features
+
+## License
+
+MIT License - Copyright (c) 2025 [The Hello World Writer](https://www.thehelloworldwriter.com/)
