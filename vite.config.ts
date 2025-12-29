@@ -8,4 +8,14 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  build: {
+    // Oxc minifier is already the default in rolldown-vite
+    minify: 'oxc',
+
+    // Target modern browsers for smaller bundle
+    target: 'esnext',
+
+    // Disable source maps in production for smaller output
+    sourcemap: false,
+  },
 })
